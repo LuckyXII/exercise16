@@ -6,7 +6,7 @@ class Button extends Component{
 
     render(){
         return(
-            <section>
+            <section className="buttonClass">
                <input type="button"
                     onClick={this.props.clear}
                     value="Clear"

@@ -5,7 +5,17 @@ import Form from './Form';
 describe("Test Form",()=>{
     it("has content",()=>{
         let wrap = shallow(<Form/>);
-        const input = <input type="text" />;
+        const input = <section>
+            <form action="#">
+                <input type="text"
+                       name="email"
+                />
+                <input type="text"
+                       name="name"
+                />
+            </form>
+        </section>;
         expect(wrap.contains(input)).toBe(true);
     });
+
 });

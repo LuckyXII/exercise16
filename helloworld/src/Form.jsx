@@ -8,10 +8,15 @@ class Form extends Component{
             <section>
                 <form action="#">
                     <input type="text"
-                        name="email"
+                           name="email"
+                           onChange={this.props.update}
+                           value={this.props.email}
+
                     />
                     <input type="text"
                            name="name"
+                           onChange={this.props.update}
+                           value={this.props.name}
                     />
                 </form>
             </section>

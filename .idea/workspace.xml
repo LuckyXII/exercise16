@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a45e742-e02b-4dbf-8829-38f26fae1672" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld/src/Button.jsx" afterPath="$PROJECT_DIR$/helloworld/src/Button.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld/src/Button.test.js" afterPath="$PROJECT_DIR$/helloworld/src/Button.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld/src/Form.jsx" afterPath="$PROJECT_DIR$/helloworld/src/Form.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld/src/Form.test.js" afterPath="$PROJECT_DIR$/helloworld/src/Form.test.js" />
     </list>
@@ -73,18 +76,18 @@
           <file leaf-file-name="Form.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/helloworld/src/Form.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="16" column="22" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
+                <state relative-caret-position="360">
+                  <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Form.test.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Form.test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/helloworld/src/Form.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -92,12 +95,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Button.test.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Button.test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/helloworld/src/Button.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="40">
+                  <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -105,8 +110,8 @@
           <file leaf-file-name="Button.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/helloworld/src/Button.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="12" column="21" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="12" selection-end-column="21" />
+                <state relative-caret-position="200">
+                  <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -126,10 +131,11 @@
         <option value="$PROJECT_DIR$/helloworld/src/App.test.js" />
         <option value="$PROJECT_DIR$/helloworld/public/index.html" />
         <option value="$PROJECT_DIR$/helloworld/src/Button" />
-        <option value="$PROJECT_DIR$/helloworld/src/Button.jsx" />
         <option value="$PROJECT_DIR$/helloworld/src/App.js" />
         <option value="$PROJECT_DIR$/helloworld/src/Form.jsx" />
         <option value="$PROJECT_DIR$/helloworld/src/Form.test.js" />
+        <option value="$PROJECT_DIR$/helloworld/src/Button.jsx" />
+        <option value="$PROJECT_DIR$/helloworld/src/Button.test.js" />
       </list>
     </option>
   </component>
@@ -277,20 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Form.test.js">
-    <configuration default="false" name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/helloworld/package.json" />
-      <node-interpreter value="C:/Program Files/nodejs/node" />
-      <working-dir value="$PROJECT_DIR$/helloworld" />
-      <jest-options value="--env=jsdom" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/helloworld/src/App.test.js" />
-      <test-names>
-        <test-name value="renders without crashing" />
-      </test-names>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Jest.Button.test.js">
     <configuration default="false" name="react tests.check contains" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/helloworld/package.json" />
       <node-interpreter value="C:/Program Files/nodejs/node" />
@@ -319,6 +312,16 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/helloworld/src/Form.test.js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Button.test.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/helloworld/package.json" />
+      <node-interpreter value="C:/Program Files/nodejs/node" />
+      <working-dir value="$PROJECT_DIR$/helloworld" />
+      <jest-options value="--env=jsdom" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/helloworld/src/Button.test.js" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -403,19 +406,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jest.test1" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.renders without crashing" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.react tests.check contains" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Form.test.js" />
-      <item index="5" class="java.lang.String" itemvalue="Jest.Form.test.js" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.react tests.check contains" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Form.test.js" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.Form.test.js" />
+      <item index="5" class="java.lang.String" itemvalue="Jest.Button.test.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Jest.Form.test.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Form.test.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.react tests.check contains" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.renders without crashing" />
+        <item index="0" class="java.lang.String" itemvalue="Jest.Button.test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.Form.test.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Form.test.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.react tests.check contains" />
       </list>
     </recent_temporary>
   </component>
@@ -438,13 +441,16 @@
       <workItem from="1495538069090" duration="2991000" />
       <workItem from="1495545078753" duration="1366000" />
       <workItem from="1495703139403" duration="4335000" />
-      <workItem from="1495819912447" duration="6179000" />
+      <workItem from="1495819912447" duration="7025000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Form_test_js - 2017.05.26 at 20h 46m 20s.xml">
-      <configuration name="Form.test.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Button_test_js - 2017.05.26 at 21h 28m 36s.xml">
+      <configuration name="Button.test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Button_test_js - 2017.05.26 at 21h 29m 04s.xml">
+      <configuration name="Button.test.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="Form_test_js - 2017.05.26 at 21h 05m 15s.xml">
       <configuration name="Form.test.js" configurationId="JavaScriptTestRunnerJest" />
@@ -470,12 +476,9 @@
     <history-entry file="Form_test_js - 2017.05.26 at 21h 14m 58s.xml">
       <configuration name="Form.test.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="react_tests_check_contains - 2017.05.25 at 11h 43m 47s.xml">
-      <configuration name="react tests.check contains" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17791000" />
+    <option name="totallyTimeSpent" value="18637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -669,14 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/Button.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -687,26 +682,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/Button.test.js">
+    <entry file="file://$PROJECT_DIR$/helloworld/src/Form.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/Form.jsx">
+    <entry file="file://$PROJECT_DIR$/helloworld/src/Button.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="200">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helloworld/src/Form.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/Button.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

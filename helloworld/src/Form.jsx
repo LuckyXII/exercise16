@@ -9,13 +9,13 @@ class Form extends Component{
                 <form action="#">
                     <input type="text"
                            name="email"
-                           onChange={this.props.update}
+                           onChange={this.props.updateEmail}
                            value={this.props.email}
 
                     />
                     <input type="text"
                            name="name"
-                           onChange={this.props.update}
+                           onChange={this.props.updateName}
                            value={this.props.name}
                     />
                 </form>

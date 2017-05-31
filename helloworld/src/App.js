@@ -16,15 +16,18 @@ class App extends Component {
     }
 
     updateEmail(e){
-
+        this.setState({email:e.target.value});
+        console.log(this.state.email);
     }
 
     updateName(e){
+        this.setState({name:e.target.value});
 
     }
 
     clear(){
-       /* this.setState({email:"",name:""});*/
+       this.setState({email:"",name:""});
+        console.log(this.state.name);
     }
 
   render() {

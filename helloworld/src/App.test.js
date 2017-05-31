@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { shallow } from "enzyme";
+import { shallow, mount, render } from "enzyme";
+
 
 describe("react tests",()=>{
     it('renders without crashing', () => {
@@ -22,9 +23,9 @@ describe("react tests",()=>{
     });
 
     it("test updateemail",()=>{
-        let txt = "hello";
-        let wrapper = shallow(<App />);
-        wrapper.find("Form").simulate("updateEmail",{
+        let txt = "Email";
+        let wrapper = mount(<App />);
+        wrapper.find("Form").children("form").children("input").first().simulate("change",{
             target:{
                 value:txt
             },
@@ -36,24 +37,22 @@ describe("react tests",()=>{
     });
 
     it("test updatename",()=>{
-        let txt = "hello";
-        let wrapper = shallow(<App />);
-        wrapper.find("Form").simulate("updateName",{
+        let txt = "Name";
+        let wrapper = mount(<App />);
+        wrapper.find("Form").children("form").children("input").at(1).simulate("change",{
             target:{
                 value:txt
             },
             type:"change"
         });
         const newState = wrapper.state("name");
-
         expect(newState).toBe(txt);
     });
 
     it("test clear",()=>{
-        let txt = "hello";
-        let wrapper = shallow(<App />);
+        let wrapper = mount(<App />);
         wrapper.setState({email:"email", name:"name"});
-        wrapper.find("Button").simulate("clear");
+        wrapper.find("Button").children("input").simulate("click");
         const stateName = wrapper.state("name");
         const stateEmail = wrapper.state("email");
         expect(stateName).toBe("");
